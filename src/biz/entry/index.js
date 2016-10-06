@@ -32,7 +32,7 @@ var main = function () {
      */
     if(typeof(w)=="undefined")
     {
-        w = new Worker("/demo/src/biz/thirdparty/demo_workers.js");
+        w = new Worker("/WebGo/src/biz/thirdparty/demo_workers.js");
         w.onmessage = function(event){
             document.getElementById("worker").innerHTML = 'worker is working...' + event.data;
         };

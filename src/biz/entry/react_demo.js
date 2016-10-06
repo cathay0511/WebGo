@@ -116,6 +116,6 @@ var CommentBox = React.createClass({
 });
 
 ReactDOM.render(
-    <CommentBox url="/demo/src/mock/react.php" pollInterval={2000} />,
+    <CommentBox url="/WebGo/src/mock/react.php" pollInterval={2000} />,
     document.getElementById('content')
 );
