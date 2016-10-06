@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="ngDemo">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/demo/src/static/css/global.css" />
+</head>
+<body>
+<div ng-controller="MainController">
+    <span ng-bind="title"></span>
+</div>
+
+<script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+<script>
+    var ngDemoModule = angular.module('ngDemo', []);
+</script>
+<script src="/demo/src/biz/entry/ng_demo.js"></script>
+</body>
+</html>

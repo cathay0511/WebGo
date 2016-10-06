@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/demo/src/static/css/global.css" />
+</head>
+<body>
+<h1 style="text-align: center;">HTML && CSS && JavaScript 基础</h1>
+<div class="split-h"></div>
+<h2>css basic</h2>
+<a style="float: right;">f</a>
+<a style="float: right;">a</a>
+<p class="g1 g2 g3 g4 g5 g6 g7 g8 g9 g10 g11" id="red" font-color="yellow">
+    css 选择器 X 引用方式 优先级
+</p>
+<div style="display: inline-block; position: relative; width: 400px; height: 400px; padding: 10px; border: 1px solid #fff; text-align: center;">
+    <p>水平居中</p>
+    <span style="border: 1px solid #fff;">
+        行内元素
+    </span>
+    <div style="width: 200px; margin-top: 20px; border: 1px solid #fff; margin-left: auto; margin-right: auto;">
+        块级元素 margin auto 方式
+    </div>
+    <div style="width: 300px; margin-top: 20px; position: absolute; left:50%; transform: translateX(-50%); border: 1px solid #fff; ">
+        块级元素 transform translateX 方式
+    </div>
+</div>
+<div style="display: inline-block; position: relative; vertical-align: top; width: 400px; height: 400px; padding: 10px; border: 1px solid #fff; text-align: center;">
+    <p>垂直居中</p>
+    <div style="height: 60px; padding: 10px; border: 1px solid #fff;">
+        <span style="border: 1px solid #fff; line-height: 60px; word-break: break-all;">行内元素 line-height = parent.height</span>
+    </div>
+    <div style="position: relative; height: 60px; margin-top: 10px; padding: 10px; border: 1px solid #fff;">
+        <div style="position: absolute; left: 50%; top:50%; transform: translate3d(-50%, -50%, 0); border: 1px solid #fff;">
+            块级元素 transform translateY 方式
+        </div>
+    </div>
+</div>
+<div class="divcss5" style="overflow: hidden;">
+    <div class="divcss5-left">left浮动</div>
+    <div class="divcss5-right">right浮动</div>
+</div>
+
+<div class="split-h"></div>
+<h2>css3 main features</h2>
+<div class="trans" style="margin-bottom: 10px;">
+    <span>CSS3 过渡(transition)</span>
+</div>
+<div class="col-3">
+    【CSS3 属性】【三栏】<br/>
+    人民网北京2月24日电 (记者 刘阳)国家发展改革委近日发出通知，决定自2月25日零时起将汽、柴油价格每吨分别提高300元和290元，折算到90号汽油和0号柴油（全国平均）每升零售价格分别提高0.22元和0.25元。
+    此次国内成品油价格调整幅度，是按照现行国内成品油价格形成机制，根据国际市场油价变化情况确定的。去年11月16日国内成品油价格调整以来，受市场预期欧美经济复苏前景向好以及中东局势持续动荡等因素影响，国际市场原油价格先抑后扬，2月上旬WTI和布伦特原油期货价格再次回升至每桶95美元和115美元以上。虽然近两日价格有所回落，但国内油价挂钩的国际市场三种原油连续22个工作日移动平均价格上涨幅度已超过4%，达到国内成品油价格调整的边界条件。
+    通知指出，这次成品油调价后，国家将按照已建立的补贴机制，继续对种粮农民、渔业（含远洋渔业）、林业、城市公交、农村道路客运（含岛际和农村水路客运）等给予补贴。同时，为保证市场物价基本稳定，防止连锁涨价，对与居民生活密切相关的铁路客运、城市公交、农村道路客运（含岛际和农村水路客运）价格不作调整。
+    通知要求，中石油、中石化、中海油三大公司要组织好成品油生产和调运，保持合理库存，加强综合协调和应急调度，保障成品油供应。各级价格主管部门要加大市场监督检查力度，依法查处不执行国家价格政策，以及囤积居奇、造谣惑众、合谋涨价、搭车涨价等违法行为，维护正常市场秩序。
+</div>
+
+<div class="split-h"></div>
+<h2>html5 main features</h2>
+<video src="/i/movie.ogg" controls="controls">
+    your browser does not support the video tag
+</video>
+<div id="geo"></div>
+<div id="worker"></div>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;"></canvas>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+    <line x1="0" y1="0" x2="300" y2="300" style="stroke:rgb(99,99,99);stroke-width:2"/>
+    <polygon points="100,10 40,180 190,60 10,60 160,180" style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;"/>
+</svg>
+<div style="">
+    <div style="position: static; border: 1px solid; width: 200px; height: 60px;">
+        <div style="position: absolute; border: 1px solid; width: 100px; height: 40px; left: 10px;"></div>
+    </div>
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/demo/src/biz/entry/index.js"></script>
+</body>
+</html>

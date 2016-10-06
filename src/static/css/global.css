@@ -1,0 +1,79 @@
+body {
+    background-color: #999;
+}
+
+.split-h {
+    height:1px;
+    width:100%;
+    margin: 10px 0;
+    background:#00CCFF;
+    overflow:hidden;
+}
+
+.col-3 {
+    -moz-column-count:3; 	/* Firefox */
+    -webkit-column-count:3; /* Safari 和 Chrome */
+    column-count:3;
+}
+
+/*#red {*/
+    /*color: red;*/
+/*}*/
+
+/*.g1.g2.g3.g4.g5.g6.g7.g8.g9.g10.g11 {*/
+    /*color: blue;*/
+/*}*/
+
+[font-color=yellow] {
+    color: yellow;
+}
+
+p {
+    color: green;
+}
+
+.divcss5 {
+    width: 400px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background: #FF0;
+}
+
+.divcss5-left, .divcss5-right {
+    width: 180px;
+    height: 100px;
+    border: 1px solid #00F;
+    background: #FFF
+}
+
+.divcss5-left {
+    float: left
+}
+
+.divcss5-right {
+    float: right
+}
+
+.clear{
+    clear: both
+}
+
+.trans
+{
+    width: 220px;
+    height: 100px;
+    background: yellow;
+    text-align: center;
+    color: green;
+    line-height: 100px;
+    transition: width 2s;
+    -moz-transition: width 2s;  /* Firefox 4 */
+    -webkit-transition:width 2s;  /* Safari and Chrome */
+    -o-transition:width 2s; /* Opera */
+}
+
+.trans:hover
+{
+    width: 422px;
+}

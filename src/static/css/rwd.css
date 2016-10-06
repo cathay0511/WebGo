@@ -1,0 +1,84 @@
+div {
+    border: 1px solid #fff;
+}
+
+p {
+    padding: 0 10px;
+}
+
+body {
+    background-color: #999;
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+}
+
+header {
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.content-wrap {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.catalogue {
+    float: left;
+    width: 20%;
+}
+
+.main-content {
+    float: right;
+    width: 78%;
+}
+
+.background .img-wrap {
+    float: left;
+    width: 33.333%;
+    padding: 10px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.img-wrap img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    .catalogue, .main-content {
+        float: none;
+        margin: 10px auto;
+    }
+
+    .catalogue {
+        width: 50%;
+    }
+
+    .main-content {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    body {
+        font-size: 12px;
+        min-width: 300px;
+    }
+
+    .catalogue {
+        display: none;
+    }
+
+    .main-content {
+        width: 80%;
+    }
+
+    .background .img-wrap {
+        width: 50%;
+    }
+}
